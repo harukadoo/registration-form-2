@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sign-up-form">
+        <div class="sign-up__container">
+            <div class="sign-up__content">
+                <div class="sign-up__title">
+                    <h1>Registration</h1>
+                </div>
+
+                <div class="sign-up__form">
+                    <form action="#" method="post">
+                       <div class="form__info">
+                            <input type="hidden" value="Diana Buriak" name="author">
+
+                        <label for="name">
+                            <p>Name</p>
+                            <input type="text" name="yourname" id="name" placeholder="Enter name" class="form__input-info">
+                        </label>
+                        <br>
+
+                        <label for="email">
+                            <p>Email</p>
+                            <input type="text" name="youremail" id="email" placeholder="Enter email" class="form__input-info">
+                        </label>
+                        <br>
+
+                        <label for="password">
+                            <p>Password</p>
+                            <input type="password" name="yourpassword" id="password" placeholder="Enter password" class="form__input-info">
+                        </label>
+                        <br>
+
+                        <label for="confpassword">
+                            <p>Confirm password</p>
+                            <input type="password" name="confirm-password" id="confpassword" placeholder="Confirm your password" class="form__input-info">
+                        </label>
+                       </div>
+
+                        <div class="form__gender">
+                            <label for="man">
+                                <input type="radio" name="gender" id="man">
+                                <span></span>
+                                <p>Male</p>
+                            </label>
+                            <label for="woman">
+                                <input type="radio" name="gender" id="woman">
+                                <span></span>
+                                <p>Female</p>
+                            </label>
+                        </div>
+
+                        <div class="form__biography">
+                            <label for="biography">
+                                <p>Your biography</p>
+                                <textarea name="your-biography" id="biography" cols="30" rows="10" placeholder="Text" class="form__textarea"></textarea>
+                            </label>
+                        </div>
+
+                        <div class="form__checkboxes">
+                            <label for="agree">
+                                <p>I agree with Terms and Conditions</p>
+                                <input type="checkbox" name="terms-and-conditions" id="agree">
+                                <span></span>
+                            </label>
+                            <br>
+                            <label for="subscribe">
+                                <p>Subscribe to our newsletter</p>
+                                <input type="checkbox" name="subscribe" id="subscribe">
+                                <span></span>
+                            </label>
+                        </div>
+
+                        <div class="form__button-container">
+                            <div class="form__button-1">
+                                <button type="submit" class="form__button-submit">Submit</button>
+                            </div>
+                            <div class="form__button-2">
+                                <button type="reset" class="form__button-reset">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
