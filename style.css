@@ -311,7 +311,7 @@
 }
 
 .form__button-reset::before {
-    content: url('/img/Shape.png');
+    content: url('../img/Shape.png');
     margin-right: 16px;
 }
 
